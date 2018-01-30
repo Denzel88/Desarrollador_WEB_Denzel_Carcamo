@@ -1,0 +1,39 @@
+body{
+  background-color: gray;
+}
+footer{
+  margin-top: 20px;
+}
+img{
+  border-radius: 10px;
+}
+#Contenedor{
+  font-family: Helvetica;
+  font-size: 16px;
+}
+#Encabezado{
+  display: block;
+  margin: 0 auto;
+}
+.enlace{
+  list-style-type: upper-roman;
+  color: white;
+}
+a[href^="../"]{
+  color: red;
+}
+*{
+  margin: 1vh 1vw;
+}
+h1 + h2{
+  text-decoration: underline;
+}
+h2 ~ p{
+  text-align: justify;
+}
+ul li{
+  list-style-type: circle;
+}
+p::first-letter{
+  text-transform: capitalize;
+}
